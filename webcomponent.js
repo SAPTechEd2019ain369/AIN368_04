@@ -54,6 +54,12 @@
              this._guideOpacity = 0.75;
              this._ringThickness = 5;
              this._bracketThickness = 5;
+
+             //Adding event handler for click events
+            this.addEventListener("click", event => {
+                var event = new Event("onClick");
+                this.dispatchEvent(event);
+            });
         };
     
         onCustomWidgetResize(width, height) {
