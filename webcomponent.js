@@ -22,7 +22,14 @@
             }
             catch{}
         }
-    
+
+        connectedCallback () {
+            const bcRect = this.getBoundingClientRect();
+            this._widgetHeight = bcRect.height;
+            this._widgetWidth = bcRect.width;
+            this.redraw();
+        }
+            
         constructor() {
             super();
             //Constants
