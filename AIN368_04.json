@@ -11,9 +11,8 @@
 	"webcomponents": [
 		{
 			"kind" : "main",
-			"tag": "com-sap-teched-01",
+			"tag": "com-sap-teched-04",
 			"url": "https://sapteched2019ain369.github.io/AIN368_04/webcomponent.js",
-			"properties":[],
 			"integrity" : "",
 			"ignoreIntegrity" : true
 		}
